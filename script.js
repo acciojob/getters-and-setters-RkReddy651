@@ -1,9 +1,16 @@
 //complete this code
 class Person {}
+Person(name,age){
+	get(name);
+	set(age);
+}
+class Student extends Person {
+	study(console.log())
+}
 
-class Student extends Person {}
-
-class Teacher extends Person {}
+class Teacher extends Person {
+	teach()
+}
 
 // Do not change the code below this line
 window.Person = Person;
